@@ -30,7 +30,7 @@ const CTA = () => {
               Get in touch
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white/20 text-black hover:bg-white/10">
+            <Button size="lg" variant="outline" className="border-white/20 text-black hover:bg-white/10 hover:text-white">
               Explore templates
             </Button>
           </div>
