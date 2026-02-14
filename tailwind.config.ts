@@ -143,8 +143,7 @@ export default {
 				'float': 'float 6s ease-in-out infinite',
 			},
 			fontFamily: {
-				'inter': ['Inter', 'sans-serif'],
-				'heading': ['Inter', 'sans-serif'],
+				'mono': ['"JetBrains Mono"', '"Space Mono"', 'monospace'],
 			},
 			backdropFilter: {
 				'none': 'none',
