@@ -18,12 +18,12 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#ffff00] text-black font-mono">
+    <div className="min-h-screen bg-[#fef08a] text-black font-mono">
       {/* Raw header - exposed structure */}
       <header className="border-b-4 border-black p-4">
         <div className="flex items-center justify-between">
           <div className="text-xs">
-            [<span className="text-[#ff0000]">JAMSTACK</span>]
+            [<span className="text-[#dc2626]">JAMSTACK</span>]
           </div>
           <div className="text-xs">
             v1.0.0 // {new Date().toISOString().split('T')[0]}
@@ -60,7 +60,7 @@ const Index = () => {
 
       {/* Benefits - grid with exposed borders */}
       <section className="border-b-4 border-black">
-        <div className="border-b-4 border-black p-2 bg-black text-[#ffff00]">
+        <div className="border-b-4 border-black p-2 bg-black text-[#fef08a]">
           <span className="text-xs">[ BENEFITS ] // 6 ITEMS FOUND</span>
         </div>
         
@@ -68,7 +68,7 @@ const Index = () => {
           {benefits.map((b, i) => (
             <div 
               key={b.num}
-              className="border-b-4 md:border-b-0 md:border-r-4 border-black p-4 last:border-r-0 hover:bg-black hover:text-[#ffff00] transition-colors"
+              className="border-b-4 md:border-b-0 md:border-r-4 border-black p-4 last:border-r-0 hover:bg-black hover:text-[#fef08a] transition-colors"
               style={{ borderRightWidth: (i + 1) % 3 === 0 ? 0 : undefined }}
             >
               <div className="flex items-start gap-4">
@@ -85,7 +85,7 @@ const Index = () => {
 
       {/* Hosting - raw table */}
       <section className="border-b-4 border-black">
-        <div className="border-b-4 border-black p-2 bg-[#ff0000] text-white">
+        <div className="border-b-4 border-black p-2 bg-[#dc2626] text-white">
           <span className="text-xs">[ HOSTING ] // FREE TIER ONLY</span>
         </div>
         
@@ -96,10 +96,10 @@ const Index = () => {
               href={`https://${h.name.toLowerCase().replace(/_/g, '')}.com`}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between p-4 border-b-4 border-black last:border-b-0 hover:bg-black hover:text-[#ffff00] transition-colors group"
+              className="flex items-center justify-between p-4 border-b-4 border-black last:border-b-0 hover:bg-black hover:text-[#fef08a] transition-colors group"
             >
               <div className="flex items-center gap-4">
-                <span className="text-xs text-black/40 group-hover:text-[#ffff00]/40">
+                <span className="text-xs text-black/40 group-hover:text-[#fef08a]/40">
                   {String(i + 1).padStart(2, '0')}
                 </span>
                 <span className="font-black">{h.name}</span>
@@ -124,7 +124,7 @@ const Index = () => {
           
           <div className="text-xs text-right">
             <div>{new Date().getFullYear()} // ALL RIGHTS UNRESERVED</div>
-            <div className="text-[#ff0000]">[ UNDER CONSTRUCTION ]</div>
+            <div className="text-[#dc2626]">[ UNDER CONSTRUCTION ]</div>
           </div>
         </div>
       </footer>
