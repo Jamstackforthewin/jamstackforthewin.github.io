@@ -83,6 +83,28 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Staticly - Your Platform */}
+      <section className="border-b-4 border-black">
+        <div className="border-b-4 border-black p-2 bg-[#dc2626] text-white">
+          <span className="text-xs">[ STATICLY ] // NEW PLATFORM</span>
+        </div>
+        
+        <a
+          href="https://staticly.jamstackforthewin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block p-6 md:p-8 hover:bg-black hover:text-[#fef08a] transition-colors group"
+        >
+          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+            <div>
+              <h2 className="font-black text-2xl md:text-3xl mb-2">STATICLY</h2>
+              <p className="text-sm">Static site builder. Deploy in seconds. Free tier available.</p>
+            </div>
+            <span className="text-xs border-2 border-current px-3 py-1">VISIT →</span>
+          </div>
+        </a>
+      </section>
+
       {/* Hosting - raw table */}
       <section className="border-b-4 border-black">
         <div className="border-b-4 border-black p-2 bg-[#dc2626] text-white">
