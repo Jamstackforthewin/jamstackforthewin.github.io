@@ -25,7 +25,7 @@ const Index = () => {
           <div className="text-xs tracking-wider">
             [<span className="text-[#dc2626]">JAMSTACK</span>]
           </div>
-          <div className="text-xs text-white/40">
+          <div className="text-xs text-white/60">
             v1.0.0
           </div>
         </div>
@@ -38,19 +38,19 @@ const Index = () => {
             Jamstack
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/60 max-w-xl mb-8">
+          <p className="text-xl md:text-2xl text-white/70 max-w-xl mb-8">
             The architecture for the modern web.
             <span className="text-white"> JavaScript. APIs. Markup.</span>
           </p>
           
-          <div className="flex items-center gap-4 text-xs text-white/40">
+          <div className="flex items-center gap-4 text-xs text-white/60">
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-[#dc2626] animate-pulse" />
               Online
             </span>
-            <span className="text-white/20">|</span>
+            <span className="text-white/40">|</span>
             <span>Static</span>
-            <span className="text-white/20">|</span>
+            <span className="text-white/40">|</span>
             <span>Edge</span>
           </div>
         </div>
@@ -69,9 +69,9 @@ const Index = () => {
                 key={b.num}
                 className="bg-black p-6 group hover:bg-white/5 transition-colors"
               >
-                <span className="text-xs text-white/20 mb-4 block">{b.num}</span>
+                <span className="text-xs text-white/40 mb-4 block">{b.num}</span>
                 <h3 className="text-lg font-bold mb-2">{b.title}</h3>
-                <p className="text-sm text-white/50">{b.desc}</p>
+                <p className="text-sm text-white/60">{b.desc}</p>
               </div>
             ))}
           </div>
@@ -85,7 +85,7 @@ const Index = () => {
             <div>
               <span className="text-xs text-[#dc2626] uppercase tracking-widest mb-2 block">Platform</span>
               <h2 className="text-3xl font-black mb-2">Staticly</h2>
-              <p className="text-white/50">Static site builder. Deploy in seconds.</p>
+              <p className="text-white/60">Static site builder. Deploy in seconds.</p>
             </div>
             <a
               href="https://staticly.jamstackforthewin.com"
@@ -117,7 +117,7 @@ const Index = () => {
               >
                 <div className="flex items-baseline gap-4">
                   <span className="font-bold">{h.name}</span>
-                  <span className="text-sm text-white/30 hidden sm:inline">{h.specs}</span>
+                  <span className="text-sm text-white/40 hidden sm:inline">{h.specs}</span>
                 </div>
                 <span className="text-sm text-[#dc2626] opacity-0 group-hover:opacity-100 transition-opacity">
                   Visit →
@@ -130,7 +130,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="px-6 py-8">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-white/30">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-white/40">
           <span>Built for the modern web</span>
           <span className="text-[#dc2626]">Under Construction</span>
           <span>{new Date().getFullYear()}</span>
