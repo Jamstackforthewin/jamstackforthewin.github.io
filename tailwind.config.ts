@@ -143,7 +143,7 @@ export default {
 				'float': 'float 6s ease-in-out infinite',
 			},
 			fontFamily: {
-				'mono': ['"JetBrains Mono"', '"Space Mono"', 'monospace'],
+				'sans': ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
 			},
 			backdropFilter: {
 				'none': 'none',
